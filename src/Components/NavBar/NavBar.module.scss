@@ -1,0 +1,22 @@
+.Nav {
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+
+
+    ul {
+        margin-left: auto;
+
+        li {
+            display: inline-block;
+            margin: 10px;
+            border: 2px solid black;
+            padding: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    }
+}
